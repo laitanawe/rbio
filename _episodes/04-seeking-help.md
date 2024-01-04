@@ -8,7 +8,7 @@ questions:
 objectives:
 - Know where to locate help and learning resources.
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "You can search for function documentation with ? and ??"
 ---
 
 ## Seeking help
