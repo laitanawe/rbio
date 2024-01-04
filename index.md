@@ -11,7 +11,7 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 > ## Prerequisites
 >
-> FIXME
+> 
 {: .prereq}
 
 {% include links.md %}
