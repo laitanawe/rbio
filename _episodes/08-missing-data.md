@@ -3,7 +3,7 @@
 # Instead, please edit 08-missing-data.md in _episodes_rmd/
 source: Rmd
 title: "Missing data"
-teaching: 15
+teaching: 20
 exercises: 15
 questions:
 - "What does R do when data are missing?"
@@ -105,8 +105,8 @@ heights[!is.na(heights)]
 
 
 ~~~
-# Returns the object with incomplete cases removed. 
-# The returned object is an atomic vector of type 
+# Returns the object with incomplete cases removed.
+# The returned object is an atomic vector of type
 # `"numeric"` (or `"double"`).
 na.omit(heights)
 ~~~
@@ -126,8 +126,8 @@ attr(,"class")
 
 
 ~~~
-# Extract those elements which are complete cases. 
-# The returned object is an atomic vector of type 
+# Extract those elements which are complete cases.
+# The returned object is an atomic vector of type
 # `"numeric"` (or `"double"`).
 heights[complete.cases(heights)]
 ~~~
@@ -145,7 +145,7 @@ Recall that you can use the `typeof()` function to find the type of your atomic 
 > ## Exercise
 >
 > 1. Using this vector of heights in inches, create a new vector, `heights_no_na`, with the NAs removed.  
-> 
+>
 > ~~~
 > heights <- c(63, 69, 60, 65, NA, 68, 61, 70, 61, 59, 64, 69, 63, 63, NA, 72, 65, 64, 70, 63, 65)
 > ~~~
