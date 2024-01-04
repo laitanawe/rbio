@@ -7,7 +7,7 @@ questions:
 objectives:
 - Describe the panes in the RStudio Integrated Development Environment (IDE).
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "There are two main ways of interacting with R: by using the console or by using script files that contain your code."
 ---
 
 ## Interacting with R
@@ -62,5 +62,3 @@ right-parentheses, or the same number of opening and closing quotation marks.
 When this happens, and you thought you finished typing your command, click
 inside the console window and press <kbd>`Esc`</kbd>; this will cancel the
 incomplete command and return you to the `>` prompt.
-
-
