@@ -1,6 +1,6 @@
 ---
 title: "Knowing your way around RStudio"
-teaching: 10
+teaching: 15
 exercises: 10
 questions:
 - "How do I use RStudio?"
@@ -12,7 +12,7 @@ keypoints:
 ## Knowing your way around RStudio
 
 Let's start by learning about [RStudio](https://www.rstudio.com/), which is an
-Integrated Development Environment (IDE) for working with R. 
+Integrated Development Environment (IDE) for working with R.
 **R** is the **programming language** that is used to execute commands and give us results.
 **RStudio** is a piece of software that makes writing R code easier.
 This specialized piece of software is commonly called an **Integrated Development Environment (IDE)**.
@@ -58,7 +58,7 @@ The top right panel has a few tabs:
 - Tutorial: A new feature that allows other R developers to create tutorials that can be run within RStudio
 
 The bottom right panel also has a few tabs.
-We will be 
+We will be
 
 ## Executing R code
 
@@ -111,13 +111,13 @@ and across collaborators.
 
 > ## Exercise 1
 >
-> 1. Open the RStudio project for this workshop/book located in a file named `ds4biomed.Rproj`. 
-> You can find it on your Desktop in the `ds4biomed-learner` folder. Refer to the 
-> [Setup instructions]({{ page.root }}{% link setup.md %}) if you do not have this 
+> 1. Open the RStudio project for this workshop/book located in a file named `ds4biomed.Rproj`.
+> You can find it on your Desktop in the `ds4biomed-learner` folder. Refer to the
+> [Setup instructions]({{ page.root }}{% link setup.md %}) if you do not have this
 > folder on your Desktop yet.  
 > 2. Click on the Files tab in the lower right panel.
 > 3. Move into the `analysis` folder with Session &#8594; Set Working Directory &#8594; Choose Directory.
-> Select the `analysis` folder. 
+> Select the `analysis` folder.
 > 4. Create a new R script and save it to the `analysis` folder as the file `00-newscript.R`.    
 > 5. On line 1 type: `3 + 3`   
 > 6. On line 3 type: `print("ds4biomed")`  
@@ -131,4 +131,3 @@ and across collaborators.
 > >
 > {: .solution}
 {: .challenge}
-
