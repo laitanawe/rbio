@@ -3,7 +3,7 @@
 # Instead, please edit 08-missing-data.md in _episodes_rmd/
 source: Rmd
 title: "Missing data"
-teaching: 20
+teaching: 25
 exercises: 15
 questions:
 - "What does R do when data are missing?"
