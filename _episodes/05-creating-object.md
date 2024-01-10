@@ -12,8 +12,9 @@ objectives:
 - "Create objects and assign values to them  in R."
 - "Learn how to _name_ objects."
 keypoints:
-- ""
-- ""
+- "Objects in R are known as variables in many other programming languages"
+- "The assignment operator in R is <- or ="
+- "Anything to the right of a # in a script will be ignored by R"
 ---
 
 
@@ -79,7 +80,7 @@ Objects can be given almost any name such as `x`, `current_temperature`, or `sub
 [here](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Reserved.html)
 for a complete list). In general, even if it's allowed, it's best to not use
 other function names (e.g., `c`, `T`, `mean`, `data`, `df`, `weights`). If in
-doubt, check the help to see if the name is already in use. 
+doubt, check the help to see if the name is already in use.
 * It's best to avoid dots (`.`) within names. Many function names in R itself have them and dots also have a special meaning (methods) in R and other programming languages. To avoid confusion, don't include dots in names.
 * It is recommended to use nouns for object names and verbs for function names.
 * Be consistent in the styling of your code, such as where you put spaces, how you name objects, etc. Styles can include "lower_snake", "UPPER_SNAKE", "lowerCamelCase", "UpperCamelCase", etc. Using a consistent coding style makes your code clearer to read for your future self and your collaborators. In R, three popular style guides come from [Google](https://google.github.io/styleguide/Rguide.xml), [Jean
@@ -183,15 +184,15 @@ What do you think is the current content of the object `weight_lb`? 126.5 or 220
 
 Up to now, your code has been in the console. This is useful for quick queries
 but not so helpful if you want to revisit your work for any reason.
-A script can be opened by pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + 
-<kbd>N</kbd>. 
-It is wise to save your script file immediately. To do this press 
-<kbd>Ctrl</kbd> + <kbd>S</kbd>. This will open a dialogue box where you 
+A script can be opened by pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> +
+<kbd>N</kbd>.
+It is wise to save your script file immediately. To do this press
+<kbd>Ctrl</kbd> + <kbd>S</kbd>. This will open a dialogue box where you
 can decide where to save your script file, and what to name it.
 The `.R` file extension is added automatically and ensures your file
 will open with RStudio.
 
-Don't forget to save your work periodically by pressing <kbd>Ctrl</kbd> + 
+Don't forget to save your work periodically by pressing <kbd>Ctrl</kbd> +
 <kbd>S</kbd>.
 
 
@@ -203,8 +204,8 @@ scripts.
 RStudio makes it easy to comment or uncomment a paragraph: after selecting the
 lines you  want to comment, press at the same time on your keyboard
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>. If you only want to comment
-out one line, you can put the cursor at any location of that line (i.e. no need 
-to select the whole line), then press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + 
+out one line, you can put the cursor at any location of that line (i.e. no need
+to select the whole line), then press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> +
 <kbd>C</kbd>.
 
 >
@@ -212,7 +213,7 @@ to select the whole line), then press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> +
 >
 > What are the values after each statement in the following?
 >
-> 
+>
 > ~~~
 > mass <- 47.5            # mass?
 > age  <- 122             # age?
@@ -284,7 +285,7 @@ round(3.14159)
 Here, we've called `round()` with just one argument, `3.14159`, and it has
 returned the value `3`.  That's because the default is to round to the nearest
 whole number. If we want more digits we can see how to do that by getting
-information about the `round` function.  We can use `args(round)` to find what 
+information about the `round` function.  We can use `args(round)` to find what
 arguments it takes, or look at the
 help for this function using `?round`.
 
@@ -297,7 +298,7 @@ args(round)
 
 
 ~~~
-function (x, digits = 0) 
+function (x, digits = 0)
 NULL
 ~~~
 {: .output}
