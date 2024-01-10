@@ -58,7 +58,7 @@ The top right panel has a few tabs:
 - Tutorial: A new feature that allows other R developers to create tutorials that can be run within RStudio
 
 The bottom right panel also has a few tabs.
-We will be
+
 
 ## Executing R code
 
