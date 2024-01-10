@@ -7,7 +7,7 @@ questions:
 objectives:
 - Describe the panes in the RStudio Integrated Development Environment (IDE).
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "You can run selected lines by using the shortcut, Ctrl+Enter"
 ---
 ## Knowing your way around RStudio
 

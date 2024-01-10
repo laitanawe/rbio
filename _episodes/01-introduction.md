@@ -8,7 +8,7 @@ questions:
 objectives:
 - Explain how R and RStudio relate to each other and what they are used for.
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "R code is great for reproducibility"
 ---
 
 
