@@ -115,7 +115,7 @@ and across collaborators.
 > You can find it on your Desktop in the `ds4biomed-learner` folder. Refer to the
 > [Setup instructions]({{ page.root }}{% link setup.md %}) if you do not have this
 > folder on your Desktop yet.  
-> 2. Click on the Files tab in the lower right panel.
+> 2. Click on the Files tab in the lower right panel. Create a new folder and name it, analysis.
 > 3. Move into the `analysis` folder with Session &#8594; Set Working Directory &#8594; Choose Directory.
 > Select the `analysis` folder.
 > 4. Create a new R script and save it to the `analysis` folder as the file `00-newscript.R`.    
