@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "RNA-seq Example"
 teaching: 0
 exercises: 0
 questions:
@@ -12,4 +12,3 @@ keypoints:
 FIXME
 
 {% include links.md %}
-
